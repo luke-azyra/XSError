@@ -1,0 +1,14 @@
+C:\Projects\SendError\DemoApp\DemoApp\bin\Release\DemoApp.exe
+C:\Projects\SendError\DemoApp\DemoApp\bin\Release\DemoApp.pdb
+C:\Projects\SendError\DemoApp\DemoApp\bin\Release\CSClassHolder.dll
+C:\Projects\SendError\DemoApp\DemoApp\bin\Release\XSharp.Core.dll
+C:\Projects\SendError\DemoApp\DemoApp\bin\Release\XSharp.RT.dll
+C:\Projects\SendError\DemoApp\DemoApp\bin\Release\CSClassHolder.pdb
+C:\Projects\SendError\DemoApp\DemoApp\bin\Release\XSharp.Core.xml
+C:\Projects\SendError\DemoApp\DemoApp\bin\Release\XSharp.RT.xml
+C:\Projects\SendError\DemoApp\DemoApp\obj\Release\DemoApp.xsproj.AssemblyReference.cache
+C:\Projects\SendError\DemoApp\DemoApp\obj\Release\DemoApp.xsproj.SuggestedBindingRedirects.cache
+C:\Projects\SendError\DemoApp\DemoApp\obj\Release\DemoApp.xsproj.CoreCompileInputs.cache
+C:\Projects\SendError\DemoApp\DemoApp\obj\Release\DemoApp.xsproj.CopyComplete
+C:\Projects\SendError\DemoApp\DemoApp\obj\Release\DemoApp.exe
+C:\Projects\SendError\DemoApp\DemoApp\obj\Release\DemoApp.pdb

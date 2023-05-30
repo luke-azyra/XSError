@@ -1,0 +1,9 @@
+C:\Projects\SendError\DemoApp\CSClassHolder\bin\Test1\net48\CSClassHolder.dll
+C:\Projects\SendError\DemoApp\CSClassHolder\bin\Test1\net48\CSClassHolder.pdb
+C:\Projects\SendError\DemoApp\CSClassHolder\obj\Test1\net48\CSClassHolder.csproj.AssemblyReference.cache
+C:\Projects\SendError\DemoApp\CSClassHolder\obj\Test1\net48\CSClassHolder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SendError\DemoApp\CSClassHolder\obj\Test1\net48\CSClassHolder.AssemblyInfoInputs.cache
+C:\Projects\SendError\DemoApp\CSClassHolder\obj\Test1\net48\CSClassHolder.AssemblyInfo.cs
+C:\Projects\SendError\DemoApp\CSClassHolder\obj\Test1\net48\CSClassHolder.csproj.CoreCompileInputs.cache
+C:\Projects\SendError\DemoApp\CSClassHolder\obj\Test1\net48\CSClassHolder.dll
+C:\Projects\SendError\DemoApp\CSClassHolder\obj\Test1\net48\CSClassHolder.pdb

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(XSharpMsBuildDir)\XSharp.Default.props" />
+  <PropertyGroup>
+    <ProjectGuid>051d9224-96cc-489c-a3eb-2af4b21c3962</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DemoApp</RootNamespace>
+    <AssemblyName>DemoApp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <Name>DemoApp</Name>
+    <Nologo>true</Nologo>
+    <GenerateFullPaths>true</GenerateFullPaths>
+    <Dialect>Vulcan</Dialect>
+    <OutputName>DemoApp</OutputName>
+    <StartupObject />
+    <LB>True</LB>
+    <Unsafe>True</Unsafe>
+    <OVF>True</OVF>
+    <INS>True</INS>
+    <Vo3>True</Vo3>
+    <Vo10>True</Vo10>
+    <Vo8>True</Vo8>
+    <Vo9>True</Vo9>
+    <Vo4>True</Vo4>
+    <Vo2>True</Vo2>
+    <Vo12>True</Vo12>
+    <Vo11>True</Vo11>
+    <Vo13>True</Vo13>
+    <Vo7>True</Vo7>
+    <Vo5>True</Vo5>
+    <Vo6>True</Vo6>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'" Label="Configuration">
+    <PlatformTarget>x86</PlatformTarget>
+    <EmitDebugInformation>true</EmitDebugInformation>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <Prefer32Bit>False</Prefer32Bit>
+    <UseSharedCompilation>True</UseSharedCompilation>
+    <DisabledWarnings>XS0549%3bXS9020%3bXS9021%3b9043</DisabledWarnings>
+    <WarningsAsErrors />
+    <SuppressRCWarnings>False</SuppressRCWarnings>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'" Label="Configuration">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <EmitDebugInformation>false</EmitDebugInformation>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test1|AnyCPU'" Label="Configuration">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <EmitDebugInformation>false</EmitDebugInformation>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Test1\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test2|AnyCPU'" Label="Configuration">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <EmitDebugInformation>false</EmitDebugInformation>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Test2\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test3|AnyCPU'" Label="Configuration">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <EmitDebugInformation>false</EmitDebugInformation>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Test3\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(XSharpMsBuildDir)\XSharp.targets" />
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="XSharp.Core" />
+    <Reference Include="XSharp.RT" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.prg">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Program.prg">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSClassHolder\CSClassHolder.csproj">
+      <Name>CSClassHolder</Name>
+      <Project>{f5fc2d85-c952-4d55-a2d4-63cc9af121f8}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <!-- This next bit is required unless the macro used to Import your targets is defined in an MSBuild toolset. -->
+  <ProjectExtensions>
+    <ProjectCapabilities>
+      <ProjectConfigurationsDeclaredAsItems />
+    </ProjectCapabilities>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <RunPostBuildEvent />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test1|AnyCPU'">
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test2|AnyCPU'">
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test3|AnyCPU'">
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+
+<Target Name="PBETransfer" AfterTargets="Build">
+
+      <Error  Condition="!Exists('..\LocalDlls\Test1\XSharp.Core.dll')" Text="X# Core doesn't exist " />
+      <Error  Condition="!Exists('..\LocalDlls\Test1\XSharp.RT.dll')" Text="X# RT doesn't exist " />
+      <Exec Command="xcopy /Y /I /S /D ..\LocalDlls\Test1\XSharp.Core.dll &quot;$(ProjectDir)bin\Test1\&quot;" />
+      <Exec Command="xcopy /Y /I /S /D ..\LocalDlls\Test1\XSharp.RT.dll &quot;$(ProjectDir)bin\Test1\&quot;" />
+
+      <Error  Condition="!Exists('..\LocalDlls\Test2\XSharp.Core.dll')" Text="X# Core doesn't exist " />
+      <Error  Condition="!Exists('..\LocalDlls\Test2\XSharp.RT.dll')" Text="X# RT doesn't exist " />
+      <Exec Command="xcopy /Y /I /S /D ..\LocalDlls\Test2\XSharp.Core.dll &quot;$(ProjectDir)bin\Test2\&quot;" />
+      <Exec Command="xcopy /Y /I /S /D ..\LocalDlls\Test2\XSharp.RT.dll &quot;$(ProjectDir)bin\Test2\&quot;" />
+      
+      <Error  Condition="!Exists('..\LocalDlls\Test3\XSharp.Core.dll')" Text="X# Core doesn't exist " />
+      <Error  Condition="!Exists('..\LocalDlls\Test3\XSharp.RT.dll')" Text="X# RT doesn't exist " />
+      <Exec Command="xcopy /Y /I /S /D ..\LocalDlls\Test3\XSharp.Core.dll &quot;$(ProjectDir)bin\Test3\&quot;" />
+      <Exec Command="xcopy /Y /I /S /D ..\LocalDlls\Test3\XSharp.RT.dll &quot;$(ProjectDir)bin\Test3\&quot;" />
+      
+</Target>
+<!--  -->
+</Project>
