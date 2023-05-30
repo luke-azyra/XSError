@@ -12,3 +12,17 @@ C:\Projects\SendError\DemoApp\DemoApp\bin\Debug\XSharp.RT.xml
 C:\Projects\SendError\DemoApp\DemoApp\obj\Debug\DemoApp.xsproj.CopyComplete
 C:\Projects\SendError\DemoApp\DemoApp\obj\Debug\DemoApp.exe
 C:\Projects\SendError\DemoApp\DemoApp\obj\Debug\DemoApp.pdb
+C:\Projects\XSError\DemoApp\bin\Debug\DemoApp.exe
+C:\Projects\XSError\DemoApp\bin\Debug\DemoApp.pdb
+C:\Projects\XSError\DemoApp\bin\Debug\CSClassHolder.dll
+C:\Projects\XSError\DemoApp\bin\Debug\XSharp.Core.dll
+C:\Projects\XSError\DemoApp\bin\Debug\XSharp.RT.dll
+C:\Projects\XSError\DemoApp\bin\Debug\CSClassHolder.pdb
+C:\Projects\XSError\DemoApp\bin\Debug\XSharp.Core.xml
+C:\Projects\XSError\DemoApp\bin\Debug\XSharp.RT.xml
+C:\Projects\XSError\DemoApp\obj\Debug\DemoApp.xsproj.AssemblyReference.cache
+C:\Projects\XSError\DemoApp\obj\Debug\DemoApp.xsproj.SuggestedBindingRedirects.cache
+C:\Projects\XSError\DemoApp\obj\Debug\DemoApp.xsproj.CoreCompileInputs.cache
+C:\Projects\XSError\DemoApp\obj\Debug\DemoApp.xsproj.CopyComplete
+C:\Projects\XSError\DemoApp\obj\Debug\DemoApp.exe
+C:\Projects\XSError\DemoApp\obj\Debug\DemoApp.pdb

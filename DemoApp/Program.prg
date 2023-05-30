@@ -22,10 +22,13 @@ FUNCTION Start() AS VOID STRICT
 
         Console.WriteLine("There is an error")
         Console.WriteLine()
+        Console.WriteLine("Raw Exception output")
         Console.WriteLine()
         Console.WriteLine(e)
         Console.WriteLine()
+        Console.WriteLine("Raw InnerException Output")
         Console.WriteLine()
+        Console.WriteLine(e:InnerException)
         Console.WriteLine()
     END TRY
 
