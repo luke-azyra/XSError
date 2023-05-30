@@ -20,7 +20,7 @@ namespace CSClassHolder
     }
     public static class Runable
     {
-        private static Awaitable AwaitThisObject { get; set; }
+        private static Awaitable AwaitThisObject { get; set; } = null;
 
         public static void Run() => Task.Run(async () => await AwaitThisObject?.GetMessageAsync()).Wait();
     }
